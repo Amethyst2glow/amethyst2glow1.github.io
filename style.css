@@ -1,0 +1,51 @@
+* {
+	text-align: right;
+}
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+}
+
+header {
+	background-color: yellowgreen;
+}
+
+h2, P:hover {
+	color: #AA8439;
+	text-align: center;
+	border: 5px solid rgb(170, 68, 57);
+	cursor: pointer;
+}
+
+p  {
+	color: green;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext:first-child {
+	border: 5px dashed blue;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background-color: rgba(0, 255, 0, 0.2);
+}
+
+#div2 {
+	background-color: rgba(0, 0, 255, 0.2);
+}
+
+footer {
+	color: red;
+	text-align: center;
+	background-color: yellowgreen;
+}
+
